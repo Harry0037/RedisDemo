@@ -1,0 +1,14 @@
+第一章：redis简介
+	Redis是一个开源的使用ANSI C语音编写、支持网络、可基于内存亦可持久化的日志型、key-value数据库，并提供多种语音的API。
+第二章：redis的下载与安装
+	1．下载地址：https://github.com/dmajkic/redis/downloads
+2．安装步骤
+	a.解压文件
+	b.新建文件夹（命名为redis）然后把64位文件下的内容拷贝到新建的文件夹中
+c.打开cmd命令行，指定到上面的redis目录
+d.执行redis-server.exe redis.conf命令
+e.执行完不要关闭命令窗口
+f.重新打开个新的cmd，然后指定到redis目录执行redis-cli.exe，回车会自动连接到本机。如果连接远程的话，执行redis-cli.exe –h IP地址 –p 端口 回车。
+	3.java连接redis使用的驱动包是jedis.jar（可以使用maven来下载）
+第三章：redis持久化策略
+	参考redis菜鸟学习中的redis配置
